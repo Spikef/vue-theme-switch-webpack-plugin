@@ -143,87 +143,79 @@ export default {
 <style lang="less">
   #page1 {
     .el-select .el-input {
-      width: 380px
+      width: 380px;
     }
 
     .el-form {
-      width: 460px
+      width: 460px;
     }
 
     .line {
-      text-align: center
+      text-align: center;
     }
 
     .el-checkbox-group {
       width: 320px;
       margin: 0;
       padding: 0;
-      list-style: none
+      list-style: none;
     }
 
     .el-checkbox-group:after,.el-checkbox-group:before {
       content: " ";
-      display: table
+      display: table;
     }
 
     .el-checkbox-group:after {
       clear: both;
       visibility: hidden;
       font-size: 0;
-      height: 0
+      height: 0;
     }
 
     .el-checkbox-group .el-checkbox {
       float: left;
       width: 160px;
       margin: 0;
-      padding: 0
+      padding: 0;
     }
 
     .el-checkbox-group .el-checkbox+.el-checkbox {
-      margin-left: 0
+      margin-left: 0;
     }
 
     .demo-form-normal {
-      width: 460px
+      width: 460px;
     }
 
     .demo-form-inline {
-      width: auto
+      width: auto;
     }
 
     .demo-form-inline .el-input {
-      width: 150px
+      width: 150px;
     }
 
-    .demo-form-inline>* {
-      margin-right: 10px
+    .demo-form-inline > * {
+      margin-right: 10px;
     }
 
     .demo-ruleForm {
-      width: 460px
+      width: 460px;
     }
 
     .demo-ruleForm .el-select .el-input {
-      width: 360px
+      width: 360px;
     }
 
     .demo-dynamic .el-input {
       margin-right: 10px;
       width: 270px;
-      vertical-align: top
+      vertical-align: top;
     }
 
     .fr {
-      float: right
+      float: right;
     }
   }
-</style>
-
-<style lang="less" theme="red">
-    #page1 {
-        .content {
-            color: #bd410b;
-        }
-    }
 </style>

@@ -69,7 +69,7 @@ module.exports = {
         },
       },
       {
-        test: /\.(css|less)$/,
+        test: /\.less$/,
         use: [
           {
             loader: ThemeSwitchPlugin.loader,
@@ -83,6 +83,21 @@ module.exports = {
           },
           {
             loader: 'less-loader',
+            options: {
+              sourceMap: true,
+            },
+          },
+        ],
+      },
+      {
+        test: /\.css$/,
+        use: [
+          {
+            loader: ThemeSwitchPlugin.loader,
+            options: {},
+          },
+          {
+            loader: 'css-loader',
             options: {
               sourceMap: true,
             },

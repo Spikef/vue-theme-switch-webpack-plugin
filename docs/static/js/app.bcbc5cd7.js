@@ -53,7 +53,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "static/js/" + ({}[chunkId]||chunkId) + "." + "51337f06" + ".js"
+/******/ 		return __webpack_require__.p + "static/js/" + ({}[chunkId]||chunkId) + "." + "bcbc5cd7" + ".js"
 /******/ 	}
 /******/
 /******/ 	// The require function
@@ -72320,11 +72320,11 @@ var vue_router_common_default = /*#__PURE__*/__webpack_require__.n(vue_router_co
 
 
 var Page1 = function Page1() {
-  return __webpack_require__.e(/* import() */ 1).then(__webpack_require__.bind(null, 170));
+  return __webpack_require__.e(/* import() */ 1).then(__webpack_require__.bind(null, 168));
 };
 
 var Page2 = function Page2() {
-  return __webpack_require__.e(/* import() */ 2).then(__webpack_require__.bind(null, 171));
+  return __webpack_require__.e(/* import() */ 2).then(__webpack_require__.bind(null, 169));
 };
 
 var routes = [{
