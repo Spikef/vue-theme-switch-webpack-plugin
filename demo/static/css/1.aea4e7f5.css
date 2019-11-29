@@ -1,0 +1,62 @@
+#page1 .el-select .el-input {
+  width: 380px;
+}
+#page1 .el-form {
+  width: 460px;
+}
+#page1 .line {
+  text-align: center;
+}
+#page1 .el-checkbox-group {
+  width: 320px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#page1 .el-checkbox-group:after,
+#page1 .el-checkbox-group:before {
+  content: " ";
+  display: table;
+}
+#page1 .el-checkbox-group:after {
+  clear: both;
+  visibility: hidden;
+  font-size: 0;
+  height: 0;
+}
+#page1 .el-checkbox-group .el-checkbox {
+  float: left;
+  width: 160px;
+  margin: 0;
+  padding: 0;
+}
+#page1 .el-checkbox-group .el-checkbox + .el-checkbox {
+  margin-left: 0;
+}
+#page1 .demo-form-normal {
+  width: 460px;
+}
+#page1 .demo-form-inline {
+  width: auto;
+}
+#page1 .demo-form-inline .el-input {
+  width: 150px;
+}
+#page1 .demo-form-inline > * {
+  margin-right: 10px;
+}
+#page1 .demo-ruleForm {
+  width: 460px;
+}
+#page1 .demo-ruleForm .el-select .el-input {
+  width: 360px;
+}
+#page1 .demo-dynamic .el-input {
+  margin-right: 10px;
+  width: 270px;
+  vertical-align: top;
+}
+#page1 .fr {
+  float: right;
+}
+
