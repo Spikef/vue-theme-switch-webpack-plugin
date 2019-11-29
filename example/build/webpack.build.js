@@ -14,7 +14,7 @@ module.exports = {
     app: resolve('src/index.js'),
   },
   output: {
-    path: resolve('../demo'),
+    path: resolve('../docs'),
     filename: 'static/js/[name].[hash:8].js',
     libraryTarget: 'umd',
   },
